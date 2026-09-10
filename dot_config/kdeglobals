@@ -116,7 +116,7 @@ XftSubPixel=none
 widgetStyle=breeze
 
 [Icons]
-Theme=Colloid-Pastel-Red
+Theme=Colloid-Pastel-Red-Dark
 
 [KDE]
 LookAndFeelPackage=Catppuccin-Mocha-Red
