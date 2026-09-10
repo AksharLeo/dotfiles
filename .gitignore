@@ -1,0 +1,49 @@
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.#*
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Media
+*.mkv
+*.mp4
+*.webm
+*.avi
+*.mov
+*.flac
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Databases / local state
+*.db
+*.sqlite
+*.sqlite3
+
+# Crash dumps
+core
+core.*
+*.core

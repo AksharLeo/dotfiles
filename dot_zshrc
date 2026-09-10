@@ -1,0 +1,63 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+source /usr/share/cachyos-zsh-config/cachyos-config.zsh
+source ~/.zsh/plugins/zsh-system-clipboard/zsh-system-clipboard.zsh
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#export default editor mainly for sudoedit
+export EDITOR=nvim
+export VISUAL=nvim
+
+
+set -o vi
+
+#pyenv
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
+export TERM=xterm-256color
+source /usr/share/nvm/init-nvm.sh
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/aksharleo/.local/bin:$PATH"
+
+
+#aliases
+
+# ----------------------------------------
+# Navigation
+# ----------------------------------------
+
+eval "$(zoxide init zsh)"
+
+# ----------------------------------------
+# Eza / ls
+# ----------------------------------------
+
+alias ls='eza --icons=always --group-directories-first'
+alias l='eza -lah --icons=always --group-directories-first'
+alias ll='eza -lah --icons=always --group-directories-first'
+alias la='eza -a --icons=always --group-directories-first'
+
+alias lt='eza --tree --level=2 --icons=always'
+alias ltt='eza --tree --level=3 --icons=always'
+alias lta='eza --tree -a --level=2 --icons=always'
+
+# bat
+
+alias bat="bat --color=always --theme='Catppuccin Mocha'"
+
+# lazy 
+
+alias lssh="lazyssh"

@@ -1,0 +1,26 @@
+# Backups
+**/*.bak
+**/*.old
+**/*.orig
+**/*~
+
+# Logs
+**/*.log
+
+# Temporary files
+**/*.tmp
+**/*.temp
+
+# Media
+**/*.mkv
+**/*.mp4
+**/*.webm
+**/*.avi
+**/*.mov
+**/*.mp3
+**/*.flac
+**/*.wav
+
+# Databases / application state
+**/*.sqlite
+**/*.sqlite3
