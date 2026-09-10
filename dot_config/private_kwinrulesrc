@@ -1,0 +1,27 @@
+[6d13a738-9f3e-4831-ac24-666f68c61a75]
+Description=Application settings for com.mitchellh.ghostty
+shortcut=Ctrl+`
+shortcutrule=2
+skipswitcher=true
+skipswitcherrule=2
+wmclass=ghostty com.mitchellh.ghostty
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=2
+rules=ea8a669c-09d4-424e-a392-784d0b0c66fe,6d13a738-9f3e-4831-ac24-666f68c61a75
+
+[c74950fc-461d-4654-91fe-97630e63890d]
+opacityactiverule=2
+opacityinactiverule=2
+
+[ea8a669c-09d4-424e-a392-784d0b0c66fe]
+Description=Application settings for org.kde.dolphin
+opacityactive=90
+opacityactiverule=2
+opacityinactive=90
+opacityinactiverule=2
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
