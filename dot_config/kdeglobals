@@ -116,7 +116,7 @@ XftSubPixel=none
 widgetStyle=breeze
 
 [Icons]
-Theme=Colloid-Pastel-Red-Dark
+Theme=Colloid-Pastel-Red
 
 [KDE]
 LookAndFeelPackage=Catppuccin-Mocha-Red
@@ -124,6 +124,7 @@ ShowDeleteCommand=true
 SingleClick=false
 contrast=7
 frameContrast=0.2
+widgetStyle=breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
