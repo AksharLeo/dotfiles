@@ -318,7 +318,6 @@ _launch=none
 ActiveWindowScreenShot=Alt+Print
 CurrentMonitorScreenShot=Print
 FullScreenScreenShot=Meta+Print
-OpenWithoutScreenshot=none
 RecordRegion=none
 RecordScreen=none
 RecordWindow=none

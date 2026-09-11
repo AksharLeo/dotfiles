@@ -42,7 +42,7 @@ DialogWidth=1912
 changedPositions={"desktop:/Control Ultimate Edition.desktop":["1366x768,1920x1080","0","19"],"desktop:/Persona 5 Royal.desktop":["1920x1080","0","0"],"desktop:/Superposition.desktop":["1920x1080","0","0"],"desktop:/decky_installer.desktop":["1920x1080","3","12"]}
 iconSize=2
 lastResolution=1920x1080
-positions={"1366x768":["1","14","desktop:/Control Ultimate Edition.desktop","0","13"],"1920x1080":["1","20","desktop:/Control Ultimate Edition.desktop","0","0","desktop:/decky_installer.desktop","3","12","desktop:/steam.desktop","0","1","desktop:/Stardew Valley.desktop","0","1","desktop:/REMNANT II.desktop","0","1","desktop:/Persona 5 Royal.desktop","0","0","desktop:/Superposition.desktop","0","0"]}
+positions={"1366x768":["1","14","desktop:/Control Ultimate Edition.desktop","0","13"],"1920x1080":["1","20","desktop:/decky_installer.desktop","3","12","desktop:/steam.desktop","0","1","desktop:/REMNANT II.desktop","0","1","desktop:/Persona 5 Royal.desktop","0","0","desktop:/Control Ultimate Edition.desktop","0","0","desktop:/Superposition.desktop","0","0","desktop:/Stardew Valley.desktop","0","1"]}
 sortMode=-1
 
 [Containments][280][Wallpaper][com.github.catsout.wallpaperEngineKde][General]
@@ -59,7 +59,7 @@ WallpaperWorkShopId=3009916846
 VideoUrls=[{"filename":"file:///home/aksharleo/Downloads/2022-05-09 11-55-22.mp4","enabled":true,"duration":0,"customDuration":0,"playbackRate":0,"alternativePlaybackRate":0,"loop":false}]
 
 [Containments][280][Wallpaper][org.kde.slideshow][General]
-Image=file:///mnt/storage/Akshar/wallpapers/bloodborne/6 - QRKTg7H.jpg
+Image=file:///mnt/storage/Akshar/wallpapers/darksouls/11 - B1kddkS.jpg
 SlidePaths=/mnt/storage/Akshar/wallpapers/pika/,/mnt/storage/Akshar/wallpapers/darksouls/,/mnt/storage/Akshar/wallpapers/bloodborne/,/mnt/storage/Akshar/wallpapers/ER_BASE/,/mnt/storage/Akshar/wallpapers/ER_SOTE/,/mnt/storage/Akshar/wallpapers/frieren wallpapers pc/
 SlideshowFoldersFirst=true
 
